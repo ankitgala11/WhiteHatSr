@@ -26,7 +26,7 @@ if($_SESSION['email'])
  <!DOCTYPE html>  
  <html>  
       <head>  
-           <title>NOTICE BOARD!</title>  
+           <title>WhiteHatSr!</title>  
            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>  
            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />  
            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>  
@@ -241,7 +241,7 @@ section {
      <body style="background : #3f4045;">  
 
      <nav class="navbar navbar-expand-lg navbar-dark" style= "background-color: #000000;">
-    <a class="navbar-link-active" style ="color:white;" href="#">NOTICES</a>
+    <a class="navbar-link-active" style ="color:white; text-decoration: underline">WhiteHatSr</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -331,7 +331,11 @@ section {
 
 			<div class="footer-left">
 
-        <h3>Created By : <br><span>Adnaan Lalani</span></br></h3>
+        <h3>Created with &#128151 by : 
+        <br><span>
+        <a href="https://github.com/ankitgala11/WhiteHatSr" target="_blank" style ="color : lightseagreen;">Team Helloworld</a>
+        </span></br>
+        </h3>
 
 				<p class="footer-links">
 					<a href="http://adnaanlalani.000webhostapp.com/" target="_blank" class="link-1">Home</a>

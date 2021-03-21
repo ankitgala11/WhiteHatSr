@@ -45,7 +45,7 @@ Welcome to your one stop solution of being a better student, view your notices, 
 </div>
  <div class="container_outer_img">
  <div class="img-inner">
- <img src="11.JPG" alt="" class="container_img"/>
+ <img src="22.PNG" alt="" class="container_img"/>
        </div>
      </div>
   </div>
