@@ -256,7 +256,7 @@ section {
           <a class="nav-link" href="https://open.spotify.com/playlist/37i9dQZF1DX8NTLI2TtZa6" target="_blank">Spotify <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#" target="_blank">Whiteboard <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="https://www.tutorialspoint.com/whiteboard.htm" target="_blank">Whiteboard <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="https://www.onlinegdb.com/" target="_blank">Online IDE <span class="sr-only">(current)</span></a>

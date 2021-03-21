@@ -210,6 +210,10 @@ section {
 	margin-bottom: 5px;
     /* padding-top: 7px; */
 }
+.btn-lg:hover {
+     
+     border: 1.5px solid;
+}
 
 /* If you don't want the footer to be responsive, remove these media queries */
 
@@ -241,7 +245,7 @@ section {
      <body style="background : #3f4045;">  
 
      <nav class="navbar navbar-expand-lg navbar-dark" style= "background-color: #000000;">
-    <a class="navbar-link-active" style ="color:white; text-decoration: underline">WhiteHatSr</a>
+    <a class="navbar-link-active" style ="color:white; text-decoration: underline" href="index.php">WhiteHatSr</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -258,30 +262,15 @@ section {
           <a class="nav-link" href="https://open.spotify.com/playlist/37i9dQZF1DX8NTLI2TtZa6" target="_blank">Spotify <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#" target="_blank">Whiteboard <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="https://www.tutorialspoint.com/whiteboard.htm" target="_blank">Whiteboard <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="https://www.onlinegdb.com/" target="_blank">Online IDE <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="logout.php">Logout <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="logout.php" >Logout <span class="sr-only">(current)</span></a>
         </li>
-        <!-- <li class="nav-item">
-            <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
-        </li> -->
-  
-      
-      <!-- <form class="form-inline my-2 my-lg-0"> -->
-        <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" style="width: 500px;"> -->
-        <!-- <button class="btn btn-outline-warning my-2 my-sm-0" type="submit" style="margin-right: 10px">Search</button> -->
-	
-		<!-- <button class="btn btn-outline-info my-2 my-sm-0" style="margin-right: 10px;"><a href="https://getmentored.courses/" target="_blank" style ="color:yellow; text-decoration:None; display:inline-block; ">Courses</a></button>
-		<button class="btn btn-outline-info my-2 my-sm-0" style="margin-right: 10px;"><a href="#" target="_blank" style ="color:green; text-decoration:None; display:inline-block; ">Spotify</a></button>
-		<button class="btn btn-outline-info my-2 my-sm-0" style="margin-right: 10px;"><a href="#" target="_blank" style ="color:white; text-decoration:None; display:inline-block; ">whiteboard</a></button>
-		<button class="btn btn-outline-info my-2 my-sm-0"style="margin-right: 10px;"><a href="logout.php" style ="color:red; text-decoration:None; display:inline-block; ">Logout</a></button>
-      -->
-	<!-- </form> -->
-     </ul>
+             </ul>
     </div>
   </nav>
      
@@ -299,7 +288,7 @@ section {
                      <input type="file" name="image" id="image" value="image"  />  
 
                       <br />  
-                     <input type="submit" name="insert" id="insert" value="Insert" style = "background-color : #F08080;" class="btn btn-primary btn-lg"  />  
+                      <input type="submit" name="insert" id="insert" value="Insert" style = "background-color : #F08080;" class="btn btn-dark btn-lg"  />  
                      <!-- <input type="text" name="Description" placeholder="Description"><br> -->
                 
                 </form>  
@@ -458,4 +447,3 @@ else {
 </html>
 
 <?php } ?>
-
